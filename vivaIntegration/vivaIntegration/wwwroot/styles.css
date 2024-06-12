@@ -1,0 +1,49 @@
+﻿/* Card styles */
+.viva-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .viva-card h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .viva-card p {
+        margin-bottom: 15px;
+    }
+
+    .viva-card .timestamp {
+        color: #888;
+    }
+
+    .viva-card button {
+        background-color: #0094ff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .viva-card button:hover {
+            background-color: blue;
+        }
+
+@media (max-width: 600px) {
+    .viva-card {
+        padding: 15px;
+    }
+
+        .viva-card h2 {
+            font-size: 18px;
+        }
+
+        .viva-card button {
+            padding: 8px 16px;
+        }
+}
